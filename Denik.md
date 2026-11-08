@@ -12,12 +12,12 @@
 - **Kategorie**
 - **Commit**
   
-## Záznam č. 1:
+# Záznam č. 1:
 - **Datum,čas** - 8.11.
 - **Požadavek** - SVG vs Canvas
 - -> AI *chatgpt* vygeneruje malou ukázku 2-3 svalů pomocí obou technologií, podle kritérií (Jak snadné je označit jednotlivý sval, přesnost označení, jak vypadá po zvětšení, kolik práce dalo vytvoření) zhodnotit výhody a nevýhody.
 
-# SVG
+## SVG
 - **Prompt**
 Vytvoř samostatnou webovou aplikaci v jednom HTML souboru, která pomocí SVG znázorňuje schematickou lidskou paži se třemi samostatnými svalovými oblastmi:
 
@@ -263,9 +263,9 @@ Vrať kompletní HTML kód, který lze uložit jako svg.html a otevřít přímo
 </body>
 </html>
 
-- **Výsledek**
+- **Výsledek** - Stranka se opravdu otevrela v prohlizeci, zaroven jdou zvolit presne jednotlive svaly, ktery se zvyrazni. Nevyhoda je ze svaly se prekryvaji a neni uplne zretelne z obrazku co to je.
 
-# Canvas
+## Canvas
 - **Prompt**
 - Vytvoř samostatnou webovou aplikaci v jednom HTML souboru, která pomocí Canvas znázorňuje schematickou lidskou paži se třemi samostatnými svalovými oblastmi:
 
@@ -678,6 +678,8 @@ Vrať kompletní HTML kód, který lze uložit jako Canvas.html a otevřít př�
 </body>
 </html>
 
+- **Výsledek** Stejne jako SVG (Stranka se opravdu otevrela v prohlizeci, zaroven jdou zvolit presne jednotlive svaly, ktery se zvyrazni. Nevyhoda je ze svaly se prekryvaji a neni uplne zretelne z obrazku co to je.) Ale nevyhoda pri zvetseni dochazi ke ztrate kvality.
+  
 - **Co bylo potřeba potom**
 - **Chyba**
 - **Kategorie**
